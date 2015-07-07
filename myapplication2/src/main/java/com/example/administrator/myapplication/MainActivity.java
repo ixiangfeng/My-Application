@@ -7,8 +7,6 @@ import android.view.MenuItem;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.google.gson.Gson;
-
 public class MainActivity extends AppCompatActivity {
     private Button setContentViewv;
 
@@ -18,8 +16,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         setContentViewv = new Button(this);
         TextView tv = new TextView(this);
-        Gson gson = new Gson();
-        Gson gson2 = new Gson();
+//        Gson gson = new Gson();
 
 
     }
